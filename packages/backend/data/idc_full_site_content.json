@@ -1,0 +1,72 @@
+[
+  {
+    "id": "idc_web_001",
+    "title": "Company Overview",
+    "content": "Innovate, Integrate, Elevate - Your Partner in Global Manpower & IT. IDC Technologies is a solution-oriented firm specializing in IT and staffing services through meaningful communication and relationships.",
+    "metadata": {
+      "source_type": "website",
+      "source_url": "https://idctechnologies.com",
+      "section": "homepage",
+      "category": "company_overview",
+      "keywords": ["IDC Technologies", "manpower", "IT services", "staffing", "global"],
+      "content_type": "text",
+      "last_updated": "2025-01-01"
+    }
+  },
+  {
+    "id": "idc_web_002",
+    "title": "Global Presence",
+    "content": "USA, India, UAE, Australia, Ireland, Singapore, Canada, Costa Rica, UK, Mexico, Poland, Netherlands, Germany, Malaysia, New Zealand. IDC Technologies has a strong global footprint across multiple continents serving diverse markets.",
+    "metadata": {
+      "source_type": "website",
+      "source_url": "https://idctechnologies.com",
+      "section": "global_presence",
+      "category": "company_locations",
+      "keywords": ["global presence", "international", "locations", "offices"],
+      "content_type": "text",
+      "last_updated": "2025-01-01"
+    }
+  },
+  {
+    "id": "idc_web_003",
+    "title": "Services Overview",
+    "content": "What do you get with us as your partner? Comprehensive IT solutions including digital transformation, application development, cybersecurity, talent acquisition, and managed services across various industries.",
+    "metadata": {
+      "source_type": "website",
+      "source_url": "https://idctechnologies.com",
+      "section": "services",
+      "category": "service_offerings",
+      "keywords": ["IT solutions", "digital transformation", "application development", "cybersecurity", "talent acquisition"],
+      "content_type": "text",
+      "last_updated": "2025-01-01"
+    }
+  },
+  {
+    "id": "idc_web_004",
+    "title": "Contact Information",
+    "content": "Contact Us for more information about our services. We provide multiple channels for communication and are committed to responsive customer service.",
+    "metadata": {
+      "source_type": "website",
+      "source_url": "https://idctechnologies.com",
+      "section": "contact",
+      "category": "contact_info",
+      "keywords": ["contact", "communication", "customer service"],
+      "content_type": "text",
+      "last_updated": "2025-01-01"
+    }
+  },
+  {
+    "id": "idc_web_005",
+    "title": "Industries Served",
+    "content": "IDC Technologies serves multiple industries with specialized solutions tailored to meet specific sector requirements and regulatory compliance needs.",
+    "metadata": {
+      "source_type": "website",
+      "source_url": "https://idctechnologies.com",
+      "section": "industries",
+      "category": "industry_focus",
+      "keywords": ["industries", "sectors", "specialized solutions", "compliance"],
+      "content_type": "text",
+      "last_updated": "2025-01-01"
+    }
+  }
+]

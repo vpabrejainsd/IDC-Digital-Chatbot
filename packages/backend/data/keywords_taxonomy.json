@@ -1,0 +1,110 @@
+{
+  "company_entities": {
+    "clients": [
+      {"keyword": "etihad", "category": "airline", "relevance_weight": 0.9},
+      {"keyword": "rta", "category": "government", "relevance_weight": 0.8},
+      {"keyword": "audi", "category": "automotive", "relevance_weight": 0.8},
+      {"keyword": "j.p. morgan", "category": "financial", "relevance_weight": 0.9},
+      {"keyword": "pepsico", "category": "consumer_goods", "relevance_weight": 0.9},
+      {"keyword": "morgan stanley", "category": "financial", "relevance_weight": 0.9},
+      {"keyword": "bank of america", "category": "financial", "relevance_weight": 0.9},
+      {"keyword": "comcast", "category": "telecommunications", "relevance_weight": 0.8},
+      {"keyword": "johnson&johnson", "category": "healthcare", "relevance_weight": 0.9},
+      {"keyword": "at&t", "category": "telecommunications", "relevance_weight": 0.8},
+      {"keyword": "pfizer", "category": "pharmaceutical", "relevance_weight": 0.9}
+    ],
+    "idc_related": [
+      {"keyword": "idc", "category": "company", "relevance_weight": 1.0},
+      {"keyword": "idc's", "category": "company", "relevance_weight": 1.0}
+    ]
+  },
+  "cybersecurity_terms": {
+    "threat_types": [
+      {"keyword": "phishing", "category": "attack_vector", "relevance_weight": 0.9},
+      {"keyword": "ransomware", "category": "malware", "relevance_weight": 0.9},
+      {"keyword": "zero-day", "category": "vulnerability", "relevance_weight": 0.9},
+      {"keyword": "cyberattack", "category": "security_incident", "relevance_weight": 0.9}
+    ],
+    "security_tools": [
+      {"keyword": "edr", "category": "endpoint_security", "relevance_weight": 0.8},
+      {"keyword": "mdr", "category": "managed_security", "relevance_weight": 0.8},
+      {"keyword": "siem", "category": "security_monitoring", "relevance_weight": 0.8},
+      {"keyword": "vapt", "category": "vulnerability_testing", "relevance_weight": 0.8},
+      {"keyword": "firewall", "category": "network_security", "relevance_weight": 0.8}
+    ],
+    "general_security": [
+      {"keyword": "cybersecurity", "category": "security_domain", "relevance_weight": 1.0},
+      {"keyword": "cyber", "category": "security_domain", "relevance_weight": 0.9}
+    ]
+  },
+  "technology_infrastructure": {
+    "networking": [
+      {"keyword": "router", "category": "network_hardware", "relevance_weight": 0.7},
+      {"keyword": "switch", "category": "network_hardware", "relevance_weight": 0.7},
+      {"keyword": "vlan", "category": "network_concept", "relevance_weight": 0.7},
+      {"keyword": "vpn", "category": "network_security", "relevance_weight": 0.8},
+      {"keyword": "tcp/ip", "category": "protocol", "relevance_weight": 0.7},
+      {"keyword": "dns", "category": "protocol", "relevance_weight": 0.7},
+      {"keyword": "dhcp", "category": "protocol", "relevance_weight": 0.7}
+    ],
+    "cloud_services": [
+      {"keyword": "saas", "category": "cloud_model", "relevance_weight": 0.8},
+      {"keyword": "paas", "category": "cloud_model", "relevance_weight": 0.8},
+      {"keyword": "iaas", "category": "cloud_model", "relevance_weight": 0.8},
+      {"keyword": "aws", "category": "cloud_provider", "relevance_weight": 0.9},
+      {"keyword": "azure", "category": "cloud_provider", "relevance_weight": 0.9},
+      {"keyword": "gcp", "category": "cloud_provider", "relevance_weight": 0.9},
+      {"keyword": "kubernetes", "category": "containerization", "relevance_weight": 0.8},
+      {"keyword": "serverless", "category": "cloud_architecture", "relevance_weight": 0.8}
+    ],
+    "hardware": [
+      {"keyword": "server", "category": "hardware", "relevance_weight": 0.7},
+      {"keyword": "cpu", "category": "hardware_component", "relevance_weight": 0.6},
+      {"keyword": "ram", "category": "hardware_component", "relevance_weight": 0.6},
+      {"keyword": "ssd", "category": "storage", "relevance_weight": 0.6},
+      {"keyword": "gpu", "category": "hardware_component", "relevance_weight": 0.7}
+    ]
+  },
+  "data_management": {
+    "databases": [
+      {"keyword": "sql", "category": "database_language", "relevance_weight": 0.8},
+      {"keyword": "nosql", "category": "database_type", "relevance_weight": 0.8},
+      {"keyword": "database", "category": "data_storage", "relevance_weight": 0.8}
+    ],
+    "analytics": [
+      {"keyword": "data warehouse", "category": "data_architecture", "relevance_weight": 0.8},
+      {"keyword": "data lake", "category": "data_architecture", "relevance_weight": 0.8},
+      {"keyword": "etl", "category": "data_processing", "relevance_weight": 0.8},
+      {"keyword": "big data", "category": "data_volume", "relevance_weight": 0.8},
+      {"keyword": "analytics", "category": "data_analysis", "relevance_weight": 0.8}
+    ]
+  },
+  "development_methodologies": {
+    "practices": [
+      {"keyword": "agile", "category": "methodology", "relevance_weight": 0.8},
+      {"keyword": "scrum", "category": "framework", "relevance_weight": 0.8},
+      {"keyword": "devops", "category": "practice", "relevance_weight": 0.9},
+      {"keyword": "api", "category": "integration", "relevance_weight": 0.8},
+      {"keyword": "sdk", "category": "development_tool", "relevance_weight": 0.7}
+    ]
+  },
+  "operating_systems": {
+    "platforms": [
+      {"keyword": "linux", "category": "os", "relevance_weight": 0.8},
+      {"keyword": "windows server", "category": "os", "relevance_weight": 0.8},
+      {"keyword": "ubuntu", "category": "linux_distro", "relevance_weight": 0.7},
+      {"keyword": "centos", "category": "linux_distro", "relevance_weight": 0.7}
+    ]
+  },
+  "geographical_terms": {
+    "regions": [
+      {"keyword": "uae", "category": "geography", "relevance_weight": 0.8}
+    ]
+  },
+  "specialized_terms": {
+    "idc_specific": [
+      {"keyword": "csf", "category": "framework", "relevance_weight": 0.9},
+      {"keyword": "idc case study", "category": "case_study", "relevance_weight": 1.0}
+    ]
+  }
+}

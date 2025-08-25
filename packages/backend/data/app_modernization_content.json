@@ -1,0 +1,44 @@
+[
+  {
+    "id": "app_mod_001",
+    "title": "Application Development & Modernization",
+    "content": "IDC Digital offers comprehensive application development and modernization services to help organizations transform legacy systems and build modern, scalable applications.",
+    "metadata": {
+      "source_type": "presentation",
+      "source_file": "IDC-Digital-Services-AppModernization-2.txt",
+      "section": "overview",
+      "category": "app_modernization",
+      "keywords": ["application development", "modernization", "legacy systems", "scalable applications"],
+      "content_type": "text",
+      "last_updated": "2025-01-01"
+    }
+  },
+  {
+    "id": "app_mod_002",
+    "title": "Company Highlights",
+    "content": "IDC Technologies: 21+ years of experience, global presence across North America, Europe, Australia, Singapore, Malaysia, UAE, and India. Industry certified with NMSDC MBE, BBB, E-Verify, ISO standards, and CMMI Level 3.",
+    "metadata": {
+      "source_type": "presentation",
+      "source_file": "IDC-Digital-Services-AppModernization-2.txt",
+      "section": "company_info",
+      "category": "company_highlights",
+      "keywords": ["experience", "certifications", "ISO", "CMMI", "global presence"],
+      "content_type": "text",
+      "last_updated": "2025-01-01"
+    }
+  },
+  {
+    "id": "app_mod_003",
+    "title": "Industry Leadership",
+    "content": "Seasoned experts and leaders trailblazing digital solutions for all sectors. IDC brings industry expertise and thought leadership to drive innovation across various business domains.",
+    "metadata": {
+      "source_type": "presentation",
+      "source_file": "IDC-Digital-Services-AppModernization-2.txt",
+      "section": "leadership",
+      "category": "expertise",
+      "keywords": ["industry leadership", "experts", "digital solutions", "innovation"],
+      "content_type": "text",
+      "last_updated": "2025-01-01"
+    }
+  }
+]

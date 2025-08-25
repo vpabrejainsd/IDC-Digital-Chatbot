@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "source_file": "IDC_Chatbot_data.csv",
+    "conversion_date": "2024-01-15T10:30:00Z",
+    "total_entries": 10,
+    "category": "faq",
+    "description": "Frequently asked questions about IDC Technologies converted from CSV format"
+  },
+  "data": [
+    {
+      "id": "faq_001",
+      "question": "How do I contact IDC technologies?",
+      "answer": "Send us an email through our 'Contact Us' page.",
+      "category": "contact",
+      "keywords": ["contact", "email", "contact us"]
+    },
+    {
+      "id": "faq_002", 
+      "question": "What are the types of positions available for me?",
+      "answer": "IDC Technologies offers permanent, temporary, and temporary-to-permanent employment opportunities for a wide range of skill sets and industries.",
+      "category": "employment",
+      "keywords": ["positions", "employment", "permanent", "temporary", "skills", "industries"]
+    },
+    {
+      "id": "faq_003",
+      "question": "What is the global presence of IDC Technologies?",
+      "answer": "USA, India, UAE, Australia, Ireland, Singapore, Canada, Costa Rica, UK, Mexico, Poland, Netherlands, Germany, Malaysia, New Zealand.",
+      "category": "company",
+      "keywords": ["global", "presence", "locations", "countries", "offices"]
+    },
+    {
+      "id": "faq_004",
+      "question": "How does IDC Technologies protect my personal information?",
+      "answer": "IDC Technologies cares about your privacy and ensures confidentiality. For details, review our Privacy Policy.",
+      "category": "privacy",
+      "keywords": ["privacy", "personal information", "confidentiality", "privacy policy"]
+    },
+    {
+      "id": "faq_005",
+      "question": "What kind of career development resources does IDC Technologies offer?",
+      "answer": "You can reach out to your IDC representative for expertise and guidance on career development.",
+      "category": "career",
+      "keywords": ["career development", "resources", "guidance", "representative"]
+    },
+    {
+      "id": "faq_006",
+      "question": "Can I search for jobs myself or do I need to contact the local IDC Technologies office?",
+      "answer": "You can visit our Job Seeker page and fill out the form. Alternatively, contact your local IDC office.",
+      "category": "job_search",
+      "keywords": ["job search", "job seeker", "form", "local office"]
+    },
+    {
+      "id": "faq_007",
+      "question": "What do I need to do after I submit my CV?",
+      "answer": "If your skills match client needs, an IDC Technologies representative will contact you about next steps.",
+      "category": "application",
+      "keywords": ["CV", "submit", "skills", "match", "contact", "next steps"]
+    },
+    {
+      "id": "faq_008",
+      "question": "Is there a cost for being placed with IDC Technologies?",
+      "answer": "No. IDC Technologies places you at no cost to you.",
+      "category": "cost",
+      "keywords": ["cost", "placement", "free", "no cost"]
+    },
+    {
+      "id": "faq_009",
+      "question": "What does IDC Technologies do?",
+      "answer": "We are a solution-oriented firm specializing in IT and staffing services through meaningful communication and relationships.",
+      "category": "company",
+      "keywords": ["IDC Technologies", "solution", "IT", "staffing", "services", "communication"]
+    }
+  ]
+}

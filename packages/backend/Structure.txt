@@ -1,0 +1,35 @@
+IDC-Chatbot/
+│
+├── backend/                         # All backend logic and processing lives here
+│   ├── main.py                     # Main entrypoint, orchestrates the chatbot
+│   ├── config.py                   # Central configuration values (paths, model names, API keys)
+│
+│   ├── data_loader/                # Module: Raw document ingestion and extraction
+│   │   └── __init__.py
+│   │   └── loader.py              # Loads PDFs, PPTX, CSV, TXT, images; handles OCR and splitting logic
+│
+│   ├── text_processor/             # Module: Chunking and cleaning of extracted text
+│   │   └── __init__.py
+│   │   └── chunker.py             # Uses RecursiveCharacterTextSplitter; handles chunk logic
+│
+│   ├── embedding_manager/          # Module: Creates embeddings using transformer models
+│   │   └── __init__.py
+│   │   └── manager.py             # EmbeddingManager using Sentence Transformers
+│
+│   ├── vector_db_manager/          # Module: ChromaDB interactions
+│   │   └── __init__.py
+│   │   └── manager.py             # Stores/retrieves embeddings to/from ChromaDB
+│
+│   ├── llm_manager/                # Module: LLM prompt management and response generation
+│   │   └── __init__.py
+│   │   └── manager.py             # Handles Gemini LLM + Conversation Memory + prompt crafting
+│
+│   ├── data/                       # 📂 Raw document files (PDFs, PPTX, CSV, TXT, Images, etc.)
+│   │   └── test.txt               # Sample/test file for ingestion
+│
+│   ├── users.db                    # SQLite DB (optional) for storing user interactions or metadata
+│   └── .env                        # API keys and environment variables (keep this in .gitignore)
+│
+├── requirements.txt                # List of all Python dependencies
+├── README.md                       # Project description, setup guide, usage
+└── .gitignore                      # Ignore .env, __pycache__, and other unnecessary files
