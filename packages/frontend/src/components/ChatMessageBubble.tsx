@@ -42,14 +42,14 @@ const ChatMessageBubble: React.FC<ChatMessageBubbleProps> = ({
 
 			<div
 				className={cn(
-					"max-w-[85%] px-4 py-3 rounded-2xl shadow backdrop-blur-md relative",
+					"max-w-[85%] min-w-0 px-4 py-3 rounded-2xl shadow backdrop-blur-md relative",
 					isUser
 						? "bg-white/60 text-right text-gray-900 rounded-br-md"
 						: "bg-gradient-to-br from-blue-200/80 to-purple-200/70 text-gray-900 rounded-bl-md"
 				)}
 			>
 				{/* Render the main text, preserving line breaks */}
-				<p className="whitespace-pre-line">{message.text}</p>
+				<p className="whitespace-pre-wrap break-words [overflow-wrap:anywhere]">{message.text}</p>
 
 				{/* Conditionally render suggestion buttons */}
 				{message.type === "initial" && message.suggestions && (
